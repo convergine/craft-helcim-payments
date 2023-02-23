@@ -1,0 +1,41 @@
+{
+  "name": "convergine/craft-helcim-payments",
+  "description": "Accept payments and donations with Helcim in CraftCMS",
+  "version": "0.0.1",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "helcim payments",
+    "helcim",
+    "helcim-js"
+  ],
+  "support": {
+    "docs": "https://docs.convergine.com/craft-helcim-payments",
+    "issues": "https://github.com/convergine/craft-helcim-payments/issues"
+  },
+  "type": "craft-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Convergine",
+      "homepage": "https://www.convergine.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^4.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "convergine\\helcimpayments\\": "src/"
+    }
+  },
+  "extra": {
+    "handle": "helcim-payments",
+    "name": "Helcim Payments",
+    "hasCpSettings": true,
+    "hasCpSection": true,
+    "class": "convergine\\helcimpayments\\HelcimPayments"
+  }
+}
